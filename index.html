@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posgrados | Universidad Javeriana</title>
+    <link rel="stylesheet" href="./src/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/libs/OwlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./src/libs/OwlCarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./src/css/general-style.css">
+    <script src="./src/libs/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header class="row ">
+
+            <div class="container">
+                <div class="row align-items-center justify-content-between py-2">
+                    <div class="col-5 col-md-3">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <a href="/" target="_blank" rel="noopener noreferrer"><img class="w-100"
+                                        src="./src/img/logo-javeriana.png" alt=""></a>
+                            </div>
+                            <div class="col-6">
+                                <h3 class="text-header">Posgrados</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="col-auto btn txt-white bg-orange text-white">
+                        Inscríbete aquí
+                    </button>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="row">
+            <section class="col-12" id="banner-principal">
+                <div class="row position-relative" id="banner">
+                    <div class="col-auto absolute-text d-flex  flex-column align-items-center">
+
+                        <!-- <img src="./src/img/banner-principal.png" alt="" class="w-100"> -->
+                        <h2 class="acumin">
+                            <div class="expo blue-primary">EXPO</div>
+
+                            <div class="javeriana blue-secondary">JAVERIANA</div>
+
+                            <div class="posgrados blue-third">POSGRADOS</div>
+                            <div class="badge bg-gray">
+                                virtual
+                            </div>
+                        </h2>
+
+                        <br>
+
+                        <div class="calendar w-75">
+                            <div class="text-left ml-5">Fecha:</div>
+                            <div class="number d-flex justify-content-center align-items-baseline">
+                                1 <div class="cookieR y"> y </div> 2
+                            </div>
+                            <div class="gray">
+                                <b class="m-0 octubre">de octubre</b>
+                                <br>
+                                Hora: 2:00 p.m.
+                                <br> a 8:00 p.m.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 py-3 bg-blue-third text-white form-container">
+                        <form action="" method="post">
+                            <h3 class="confirma text-white">Confirma tu asistencia aquí</h3>
+                            <div class="form-group">
+                                <label for="">Nombres*</label>
+                                <input type="email" class="form-control" id="" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Apellidos*</label>
+                                <input type="email" class="form-control" id="" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Tipo de documento*</label>
+                                <select class="form-control" id="">
+                                    <option>Seleccionar</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Número de documento</label>
+                                <input type="email" class="form-control" id="" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Ciudad*</label>
+                                <input type="email" class="form-control" id="" placeholder="">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">Tipo de visitante*</label>
+                                <select class="form-control" id="">
+                                    <option value="">Seleccionar</option>
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Correo*</label>
+                                <input type="email" class="form-control" id="" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Teléfono móvil</label>
+                                <input type="email" class="form-control" id="" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Facultad o área de interés*</label>
+                                <select class="form-control" id="">
+                                    <option value="">Seleccionar</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Programa de interés*</label>
+                                <select class="form-control" id="">
+                                    <option value="">Seleccionar</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                    <option value="">Area de interés</option>
+                                </select>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Acepto términos y condiciones
+                                </label>
+                            </div>
+
+                            <div class="form-group d-flex justify-content-center">
+                                <a href="./TP/index.html" class="btn btn-enviar bg-yellow" type="submit"
+                                    value="Enviar">Enviar</a>
+                            </div>
+
+
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="col-12 text-center py-5">
+                <div class="row align-items-center justify-content-center pb-4 gray">
+                    <h3>Esperamos disfruten de esta <br> <b>experiencia virtual que contará con:</b></h3>
+                </div>
+            </section>
+
+            <section id="descuento" class="col-12">
+
+                <div class="row justify-content-center align-items-center py-3 bg-graylight">
+                    <div class="col-10 col-md-2 col-auto w-100 bg-blue-fifth text-white mr-md-5 blue-rounded py-3">
+
+                        <div class="row justify-content-center align-items-center">
+                            <div> <br>
+                                <h3 class="number text-white ">50</h3>
+                            </div>
+                            <div>
+                                % <br> dto
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <p class="gray txt-dto p-3 p-md-0">En la <b>inscripción al proceso de admisión</b> para los
+                                posgrados
+                                con
+                                inscripciones
+                                abierta. <br>
+                                Válido durante el evento. <br>
+                                <small class="blue-fifth">*Aplican términos y
+                                    condiciones</small>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center py-3 bg-graylight">
+                    <div class="order-2 order-md-1 col-md-4">
+                        <div class="row">
+                            <p class="gray txt-dto p-3 p-md-0">
+                                Paga tu matrícula antes del 15 de octubre con precio del 2021. <br>
+                                <span class="blue-fifth">*Aplican términos y condiciones.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-10 order-1 order-md-2 col-md-2 col-auto w-100 bg-blue-fifth text-white mr-md-5 blue-rounded py-3">
+                        <div class="row justify-content-center align-items-center">
+                            <div> <br>
+                                <h3 class="number text-white">15</h3>
+                            </div>
+                            <div style="transform: rotate(270deg);font-size: 30px">
+                                OCT
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            <section class="col-12" id="cards-c">
+                <div class="row py-5">
+                    <div class="container cards-desc">
+                        <div class="d-none d-md-flex row justify-content-around align-items-center">
+                            <div class="card card-item gray my-4">
+                                <img class="card-img" src="./src/img/card-item-1.svg" alt="">
+                                <p><b>7 Centros de Experiencia </b> por áreas de conocimiento</p>
+                            </div>
+                            <div class="card card-item gray my-4">
+                                <img class="card-img" src="./src/img/card-item-2.svg" alt="">
+                                <p>
+                                    Charlas de <b>financiación y becas</b>
+                                </p>
+                            </div>
+                            <div class="card card-item gray my-4">
+                                <img class="card-img" src="./src/img/card-item-3.svg" alt="">
+                                <p>
+                                    Stand de <b>inscripciones.</b>
+                                </p>
+                            </div>
+                            <div class="card card-item gray my-4">
+                                <img class="card-img" src="./src/img/card-item-4.svg" alt="">
+                                <p>
+                                    Actividades de buen vivir y <b>bienestar.</b>
+                                </p>
+                            </div>
+                            <div class="card card-item gray my-4">
+                                <img class="card-img" src="./src/img/card-item-5.svg" alt="">
+                                <p>
+                                    Charlas de <b>áreas de conocimiento.</b>
+                                </p>
+                            </div>
+                            <div class="card card-item gray my-4">
+                                <img class="card-img" src="./src/img/card-item-6.svg" alt="">
+                                <p>
+                                    <b>Recorridos 360°</b>
+                                    por el campus y más.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex d-md-none row justify-content-around align-items-center">
+                            <div class="owl-carousel owl-theme" id="areas-c">
+
+                                <div class="card card-item gray my-4">
+                                    <img class="card-img" src="./src/img/card-item-1.svg" alt="">
+                                    <p><b>7 Centros de Experiencia </b> por áreas de conocimiento</p>
+                                </div>
+                                <div class="card card-item gray my-4">
+                                    <img class="card-img" src="./src/img/card-item-2.svg" alt="">
+                                    <p>
+                                        Charlas de <b>financiación y becas</b>
+                                    </p>
+                                </div>
+                                <div class="card card-item gray my-4">
+                                    <img class="card-img" src="./src/img/card-item-3.svg" alt="">
+                                    <p>
+                                        Stand de <b>inscripciones.</b>
+                                    </p>
+                                </div>
+                                <div class="card card-item gray my-4">
+                                    <img class="card-img" src="./src/img/card-item-4.svg" alt="">
+                                    <p>
+                                        Actividades de buen vivir y <b>bienestar.</b>
+                                    </p>
+                                </div>
+                                <div class="card card-item gray my-4">
+                                    <img class="card-img" src="./src/img/card-item-5.svg" alt="">
+                                    <p>
+                                        Charlas de <b>áreas de conocimiento.</b>
+                                    </p>
+                                </div>
+                                <div class="card card-item gray my-4">
+                                    <img class="card-img" src="./src/img/card-item-6.svg" alt="">
+                                    <p>
+                                        <b>Recorridos 360°</b>
+                                        por el campus y más.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="invitados" class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-8">
+                        <div class="row position-relative justify-content-center">
+                            <div class="owl-carousel owl-theme mt-5 p-5" id="invitados-c">
+                                <div class="invitado-item mt-4">
+
+                                    <img src="./src/img/invitada-1.png" alt="">
+                                    <h4 class="text-white text-center">Invitado 1</h4>
+                                    <p class="text-white text-center">
+                                        Lorem ipsum dolor sit amet, consectetuer
+                                    </p>
+                                </div>
+                                <div class="invitado-item mt-4">
+
+                                    <img src="./src/img/invitado-2.png" alt="">
+                                    <h4 class="text-white text-center">Invitado 2</h4>
+                                    <p class="text-white text-center">
+                                        Lorem ipsum dolor sit amet, consectetuer
+                                    </p>
+                                </div>
+                                <div class="invitado-item mt-4">
+
+                                    <img src="./src/img/invitado-3.png" alt="">
+                                    <h4 class="text-white text-center">Invitado 3</h4>
+                                    <p class="text-white text-center">
+                                        Lorem ipsum dolor sit amet, consectetuer
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="campus" class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 my-5">
+                        <div class="row">
+                            <p id="txt-conoce" class="gray d-none d-md-block">
+                                Conoce el <br>
+                                <b>Campus de nuestra <br> Universidad</b>
+                            </p>
+                            <p id="txt-conoce" class="gray d-block d-md-none text-center">
+                                Conoce el
+                                <b>Campus de nuestra Universidad</b>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-auto my-5">
+                        <div class="row">
+                            <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <iframe width="100%" height="150" src="https://www.youtube.com/embed/v0v7E77mUTA"
+                                    title="Facultad de Ciencias de la Universidad Javeriana" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="blog" class="col-12">
+                <div class="row ">
+                    <div class="container ">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-12 text-centers my-5 gray">
+                                <p>Encuentra aquí los</p>
+                                <h3><b>BLOGS DESTACADOS</b></h3>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores aspernatur
+                                    cumque
+                                    praesentium, ab tenetur odit enim, quia laboriosam vero sit porro in, aut molestias
+                                    consectetur velit at ipsa. Praesentium, quaerat.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="row pos-relative">
+                            <div class="owl-carousel owl-theme" id="blog-c">
+                                <a href="./posts/index.html" class="item">
+                                    <div class="card-img" id="img-01">
+                                        <span>Leer más</span>
+                                    </div>
+                                    <div class="card-text">
+                                        <h5>Lorem ipsum</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ab
+                                            illum,
+                                            optio
+                                            minus nulla
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="./posts/index.html" class="item">
+                                    <div class="card-img" id="img-01">
+                                        <span>Leer más</span>
+                                    </div>
+                                    <div class="card-text">
+                                        <h5>Lorem ipsum</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ab
+                                            illum,
+                                            optio
+                                            minus nulla
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="./posts/index.html" class="item">
+                                    <div class="card-img" id="img-02">
+                                        <span>Leer más</span>
+                                    </div>
+                                    <div class="card-text">
+                                        <h5>Lorem ipsum</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ab
+                                            illum,
+                                            optio
+                                            minus nulla
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="./posts/index.html" class="item">
+                                    <div class="card-img" id="img-03">
+
+                                        <span>Leer más</span>
+                                    </div>
+                                    <div class="card-text">
+                                        <h5>Lorem ipsum</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ab
+                                            illum,
+                                            optio
+                                            minus nulla
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="./posts/index.html" class="item">
+                                    <div class="card-img" id="img-04">
+                                        <span>Leer más</span>
+                                    </div>
+                                    <div class="card-text">
+                                        <h5>Lorem ipsum</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam ab
+                                            illum,
+                                            optio
+                                            minus nulla
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div id="navs-container" class="col-12">
+                                <div id="naviz" class="nav"> <i class="fa fa-chevron-left"></i> </div>
+                                <div id="navder" class="nav"> <i class="fa fa-chevron-right"></i> </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="btn bg-ver-mas text-white btn-ver-mas">
+                                <i class="fa fa-chevron-right"></i>
+                                <span>VER MÁS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="nuestros-egresados" class="col-12">
+                <div class="row h-100 align-items-center justify-content-center position-relative">
+                    <div class="position-absolute" style="background: #00000055; width: 100%; height: 100%;">
+
+                    </div>
+                    <div class="col-8">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-10">
+                                <div class="row justify-content-around position-relative">
+                                    <div class="owl-carousel owl-theme" id="egresados-c">
+                                        <div class="row">
+                                            <div class="col-md-5 mr-3 mr-md-5">
+                                                <div class="row justify-content-end">
+                                                    <h4 class="white">Nuestros</h4> <br>
+                                                </div>
+                                                <div class="row justify-content-end">
+                                                    <h3 class="yellow"><b>Egresados</b></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-5 ">
+                                                <div class="row">
+                                                    <p class="text-white">La universidad tiene más de <b>150.000</b>
+                                                        egresados
+                                                        entre
+                                                        pregrado y posgrado.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-8 mt-5">
+                                <div class="row position-relative text-white text-center">
+
+                                    <p class="text-white">
+                                        Tenemos el programa REGRESA, el cual ofrece servicios y beneficios para los
+                                        egresados Javerianos y sus familias, como apoyo al a inserción laboral, la
+                                        red
+                                        de
+                                        negocios, los grupos de egresados en diferentes regiones del país y del
+                                        mundo, y
+                                        eventos de reencuentro por generaciones.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="informacion" class="col-12 bg-blue-fourth">
+                <div class="row text-center justify-content-center align-items-center py-5 ">
+
+                    <p class="text-white p-1">
+                        Si quieres información adicional de este evento podrás solicitarla a través del correo
+                        electrónico <b><a class="text-white"
+                                href="mailto:expojaverianapos@javeriana.edu.co">expojaverianapos@javeriana.edu.co</a></b>
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="row py-5 justify-content-center">
+            <div class="col-md-4">
+                <div class="row">
+                    <img id="logo-footer" src="./src/img/logo-footer-javeriana.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-10 col-md-auto">
+                <div class="row">
+                    <p class="blue-sixth">
+                        <b>Programa Contacto <br> Centro de Atención a Aspirantes</b>
+                    </p>
+                </div>
+                <div class="row blue-secondary align-items-center my-3">
+                    <a class="blue-secondary" href="tel:601320830" target="_blank" rel="noopener noreferrer"><img
+                            src="./src/img/tel.svg" alt="" class="mr-3">
+                        Teléfono: 320830 Ext:2056
+                    </a>
+                </div>
+                <div class="row blue-secondary align-items-center my-3">
+                    <a class="blue-secondary" href="https://wa.me/573173606708" target="_blank"
+                        rel="noopener noreferrer"><img src="./src/img/whatsapp.svg" alt="" class="mr-3">
+                        3173606708
+                    </a>
+                </div>
+                <div class="row blue-secondary align-items-center my-3">
+                    <a class="blue-secondary" href="mailto:expojaveriana@javeriana.edu.co" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./src/img/mail.svg" alt="" class="mr-3">
+                        expojaveriana@javeriana.edu.co
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-center">
+                <div class="row justify-content-center">
+                    <a href="https://www.javeriana.edu.co/" target="_blank" rel="noopener noreferrer"
+                        class="blue-secondary mb-4">
+                        <b>www.javeriana.edu.co</b>
+                    </a>
+                </div>
+                <div class="row justify-content-center">
+                    <a href="http://" target="_blank" class="mr-3">
+                        <img src="./src/img/facebook.svg" alt="">
+                    </a>
+                    <a href="http://" target="_blank" class="mr-3">
+                        <img src="./src/img/instagram.svg" alt="">
+                    </a>
+                    <a href="http://" target="_blank" class="mr-3">
+                        <img src="./src/img/twitter.svg" alt="">
+                    </a>
+                    <a href="http://" target="_blank" class="mr-3">
+                        <img src="./src/img/youtube.svg" alt="">
+                    </a>
+                    <a href="http://" target="_blank" class="mr-3">
+                        <img src="./src/img/linkedin.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/5400bd5224.js" crossorigin="anonymous"></script>
+    <script src="./src/libs/bootstrap/bootstrap-bundle.js"></script>
+    <script src="./src/libs/OwlCarousel/owl.carousel.min.js"></script>
+    <script src="./src/js/general-script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,641 @@
+/* Fonts */
+
+@font-face {
+    font-family: Acumin;
+    src: url('../fonts/AcuminVariableConcept.otf');
+}
+
+@font-face {
+    font-family: BarlowBold;
+    src: url('../fonts/Barlow-Bold.ttf');
+}
+
+@font-face {
+    font-family: BarlowEB;
+    src: url('../fonts/Barlow-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: BarlowEBI;
+    src: url('../fonts/Barlow-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: BarlowM;
+    src: url('../fonts/Barlow-Medium.ttf');
+}
+
+@font-face {
+    font-family: BarlowS;
+    src: url('../fonts/Barlow-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: CookieR;
+    src: url('../fonts/Cookie-Regular.ttf');
+}
+
+@font-face {
+    font-family: GothamB;
+    src: url('../fonts/Gotham\ Bold.otf');
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: GothamM;
+    src: url('../fonts/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: GothamU;
+    src: url('../fonts/Gotham-Ultra.otf');
+}
+
+@font-face {
+    font-family: Minion;
+    src: url('../fonts/MinionVariableConcept-Roman.otf');
+}
+
+@font-face {
+    font-family: Railey;
+    src: url('../fonts/Railey-PersonalUse.ttf');
+}
+
+body {
+    font-family: Acumin;
+
+}
+
+.acumin {
+    font-family: Acumin;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+:root {
+    --orange: #F38102;
+    --blue-primary: #014982;
+    --blue-secondary: #006EAC;
+    --blue-third: #436097;
+    --blue-fourth: #0053A0;
+    --blue-fifth: #0084FF;
+    --blue-sixth: #2480FF;
+    --white: #FFFFFF;
+    --yellow: #F6C409;
+    --gray: #575756;
+    --gray-light: #D4D8D9;
+    --ver-mas: #0066CC;
+}
+
+.bg-ver-mas {
+    background: var(--ver-mas)
+}
+
+.orange {
+    color: var(--orange);
+}
+
+.blue-primary {
+    color: var(--blue-primary);
+}
+
+.blue-secondary {
+    color: var(--blue-secondary);
+}
+
+.blue-third {
+    color: var(--blue-third);
+}
+
+.blue-fourth {
+    color: var(--blue-fourth);
+}
+
+.blue-fifth {
+    color: var(--blue-fifth);
+}
+
+.blue-sixth {
+    color: var(--blue-sixth);
+}
+
+.white {
+    color: var(--white);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-blue-primary {
+    background-color: var(--blue-primary);
+}
+
+.bg-blue-secondary {
+    background-color: var(--blue-secondary);
+}
+
+.bg-blue-third {
+    background-color: var(--blue-third);
+}
+
+.bg-blue-fourth {
+    background-color: var(--blue-fourth);
+}
+
+.bg-blue-fifth {
+    background-color: var(--blue-fifth);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.bg-gray {
+    background: #575756;
+    color: var(--white);
+}
+
+.bg-graylight {
+    background: var(--gray-light);
+}
+
+.absolute-text {
+    top: 5%;
+    left: 10%;
+}
+
+.calendar {
+    border: solid 4px #ffffff;
+    border-bottom: solid 8px white;
+    text-align: center;
+    position: relative;
+}
+
+.calendar::before {
+    width: 70px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    left: -70px;
+    top: -4px;
+    content: "";
+}
+
+.text-header {
+    color: var(--blue-primary);
+    padding: 10px;
+    border-left: 1px solid var(--blue-primary);
+    margin-bottom: unset;
+}
+
+#banner {
+    background-image: url(../img/banner-principal.png);
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position-y: 30%;
+    height: 992px;
+}
+
+/* Textos banner */
+
+.expo {
+    font-size: 52px;
+    letter-spacing: 40px;
+    font-family: BarlowBold;
+    font-weight: bolder;
+}
+
+.javeriana {
+    font-size: 60px;
+    font-family: BarlowBold;
+}
+
+.posgrados {
+    font-size: 52px;
+}
+
+
+.badge {
+    font-size: 18px;
+}
+
+.cookieR {
+    font-family: CookieR;
+
+}
+
+.y {
+    font-size: 24px;
+}
+
+.octubre {
+    font-size: 20px;
+}
+
+.number {
+    font-size: 6rem;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 0;
+}
+
+.form-group {
+    padding: 0;
+    margin-bottom: 10px !important;
+}
+
+.btn-enviar {
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.blue-rounded {
+    border-radius: 25px;
+}
+
+/* Cards  styles */
+.cards-desc .card-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    flex: 0 0 90%;
+    background: var(--gray-light);
+    color: var(--gray);
+    text-align: center;
+    -webkit-box-shadow: 0px 9px 15px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 9px 15px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 15px -2px rgba(0, 0, 0, 0.75);
+
+}
+
+.cards-desc .card-img {
+    width: 48px;
+    margin: 20px auto;
+}
+
+.txt-dto {
+    font-size: 1.5rem;
+}
+
+#navs-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 15%;
+    left: 0
+}
+
+#navizq {
+    left: 0;
+}
+
+#navder {
+    left: 0;
+}
+
+#blog-c .card-img,
+#article-c .card-img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#blogpost .item {
+    flex: 0 0 30%;
+    margin: 20px auto;
+}
+
+#blogpost .card-img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-img span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: var(--ver-mas);
+    color: var(--white);
+    font-weight: 700;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.item .card-text {
+    background: var(--gray-light);
+    padding: 40px 10px 10px 10px;
+    margin-top: -20px;
+    color: var(--gray);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.nav {
+    color: var(--blue-primary);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#naviz {
+    margin-left: 5%;
+}
+
+#navder {
+    margin-right: 5%;
+}
+
+#img-01 {
+    background: url(../img/blog-01.jpg)
+}
+
+#img-02 {
+    background: url(../img/blog-02.jpg)
+}
+
+#img-03 {
+    background: url(../img/blog-03.jpg)
+}
+
+#img-04 {
+    background: url(../img/blog-04.jpg)
+}
+
+.btn-ver-mas {
+
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: 20px auto;
+
+}
+
+#nuestros-egresados {
+    height: 100vh;
+    background-image: url(../img/nuestros-egresados-bg.png);
+    position: relative;
+}
+
+#nuestros-egresados::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000000bc;
+    top: 0;
+    right: 0;
+
+}
+
+#nuestros-egresados h4 {
+    font-size: 42px;
+}
+
+#nuestros-egresados h3 {
+    font-size: 48px;
+}
+
+#nuestros-egresados p,
+#informacion p {
+    font-size: 24px;
+}
+
+footer img {
+    width: 32px;
+}
+
+#logo-footer {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.btn:hover,
+.btn {
+    transition: ease-in-out all .3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#invitados {
+    background-size: contain;
+    background: url(../img/invitados-bg.png);
+    background-repeat: no-repeat;
+    height: 60vh;
+    position: relative;
+    z-index: 1;
+
+}
+
+#campus {
+    background: url(../img/conoce-el-campus-bg.png);
+    background-size: cover;
+    height: 30vh;
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+    padding-top: 20px;
+}
+
+#txt-conoce {
+    font-size: 24px;
+    position: relative;
+    font-family: Acumin;
+}
+
+#txt-conoce::before {
+    content: ">>>";
+    position: absolute;
+    top: -20px;
+    left: -50%;
+    color: var(--orange);
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.invitado-item img {
+    border-radius: 50%;
+    width: 150px !important;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: GothamB;
+}
+
+main p {
+    font-family: GothamBook !important;
+}
+
+#featured {
+    background-image: url(../img/blog.png);
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: 50% 20%;
+    position: relative;
+}
+
+#featured .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #00000066;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    font-family: GothamB;
+}
+
+#featured .content h3 {
+    font-size: 96px !important;
+}
+
+#title-bg {
+    background: url(../img/bookmark.png);
+    background-repeat: no-repeat;
+    padding: 20px 0;
+}
+
+#article-content {
+    position: relative;
+    z-index: 1;
+}
+
+#article-content img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#article-content {
+    margin-top: -20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    z-index: 3;
+}
+
+hr {
+    height: 2px;
+    width: 30px;
+    background: var(--yellow);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+footer p {
+    margin: 0
+}
+
+@media screen and (min-width: 768px) {
+    .confirma {
+        font-size: 20px;
+    }
+
+    .form-container {
+        position: absolute;
+        right: 20%;
+        top: 10%;
+        border-radius: 15px;
+    }
+
+    form * {
+        font-size: 12px
+    }
+
+    form input,
+    form select,
+    form select option {
+        font-size: 12px;
+        height: unset !important;
+    }
+
+    .cards-desc .card-item {
+        flex: 0 0 29%;
+    }
+
+    #nuestros-egresados {
+        height: 60vh;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    #blogpost .item {
+        flex: 0 0 90%;
+        margin: 20px auto;
+    }
+
+    #campus {
+        height: 60vh;
+    }
+
+    .absolute-text {
+        position: unset;
+        margin-left: 5%;
+
+    }
+
+    #banner {
+        height: 1500px;
+    }
+
+    #areas-c img {
+        width: 48px;
+    }
+
+
+}
